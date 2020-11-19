@@ -1,0 +1,24 @@
+Tema: Site Jual Produk
+
+Contents:
+1. Home
+    Deskripsi dan introduction terhadap produk
+    Kontennya image atau deskripsi sederhana
+    Di paling bawah ada tombol Buy Now! buat redirect ke Buy Now!
+2. Contact Us
+    Alamat, kontak, etc.
+    Form bila ingin menulis pertanyaan, beserta e-mail penanya
+    Tombol submit memberikan alert/notif semacam "Thank you for contacting us! We'll reach back to you soon!"
+3. Buy Now!
+    Dua variasi utama dengan beberapa item tambahan yang punya form untuk menulis jumlah pembelian (number only)
+        Nanti akan menambahkan total price
+    Tombol Purchase Now! dengan total price di sebelahnya
+    Purchase Now! ketika ditekan akan memberi alert/notif terima kasih sudah membeli
+
+=====
+
+Analisa Webpage AC Odyssey (karena yg terlintas pertama itu)
+1. IMAGE OF THE GAME
+2. Game title
+3. Epic descriptions of the game zomg
+4. News and Updates (not gonna be included in my site)

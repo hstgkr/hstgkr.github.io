@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script src="zeDefaultName.js"></script>
+
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Dungeoners - Buy Now</title>
+    <!--Title and Script-->
+    <script src="myscripts.js"></script>
+    <!--Fonts-->
+        <!--Press Start 2P-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+        <!--NavBar-->
+        <div class="navBar">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
+                <a href="buy.html"><li>Buy Now!</li></a>
+            </ul>
+        </div>
+
+        <!--Content: Body-->
+        <div class="shortDesc">
+            <h1>BUY NOW!</h1>
+        </div>
+        <table class="store">
+            <tr>
+                <th>Standard Pack</th>
+                <th>Ultimate Pack</th>
+            </tr>
+            <tr>
+                <td><img src="img/sp.png" alt="" height="64px"></td>
+                <td><img src="img/dp.png" alt="" height="64px"></td>
+            </tr>
+            <tr>
+                <td>$15.99</td>
+                <td>$35.99</td>
+            </tr>
+            <tr>
+                <th><button id="button" onclick="gobuy1()">Buy Now</button></th>
+                <th><button id="button" onclick="gobuy2()">Buy Now</button></th>
+            </tr>
+        </table>
+        <table class="store">
+            <tr>
+                <th>Wolf Pet</th>
+                <th>Bear Pet</th>
+                <th>Wisp Pet</th>
+            </tr>
+            <tr>
+                <td><img src="img/spc-wolf.png" alt="" height="64px"></td>
+                <td><img src="img/spc-burr.png" alt="" height="64px"></td>
+                <td><img src="img/spc-fae.png" alt="" height="64px"></td>
+            </tr>
+            <tr>
+                <td>$1.99</td>
+                <td>$1.99</td>
+                <td>$3.99</td>
+            </tr>
+
+            <tr>
+                <th><button id="button" onclick="wolf()">Buy Now</button></th>
+                <th><button id="button" onclick="bear()">Buy Now</button></th>
+                <th><button id="button" onclick="wisp()">Buy Now</button></th>
+            </tr>
+
+            <!--
+            <tr>
+                <th>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="wolfQty" placeholder="0">
+                </th>
+                <th>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="bearQty" placeholder="0">
+                </th>
+                <th>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="wispQty" placeholder="0">
+                </th>
+            </tr>
+            <tr>
+                <th><button id="button" onclick="wolf()">Add to Cart</button></th>
+                <th><button id="button" onclick="bear()">Add to Cart</button></th>
+                <th><button id="button" onclick="wisp()">Add to Cart</button></th>
+            </tr>
+            -->
+        </table>
+        </div>
+
+        <div class="finalPurchase">
+            <button id="button" onclick="finalPurchase()">Buy Now!</button>
+        </div>
+        
+        <!--Footer-->
+        <footer id="footer">
+            <h3>&copy 2020 iGames</h3>
+        </footer>
+    </div>
+
+</body>
+
+</html>
